@@ -1587,7 +1587,7 @@ section,
 .portfolio .portfolio-filters li.filter-active {
   color: #FFFFFF;
   background-color: #61c0ff;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -1601,7 +1601,8 @@ section,
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
     font-size: 14px;
-    margin: 0 5px;
+    margin: 5;
+    transition: all 0.3s ease-in; 
   }
 }
 
