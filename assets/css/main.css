@@ -851,6 +851,56 @@ section,
   }
 }
 
+.marquee-container {
+  width: 100%;
+  background-color: #56b8e6;
+  padding: 15px 0;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  padding: 0 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+@media (max-width: 640px) {
+  .marquee-content {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+}
+
+/* Optional: Pause animation on hover 
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}*/
+
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
