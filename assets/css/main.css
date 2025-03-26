@@ -807,6 +807,7 @@ section,
   padding-left: 20px;
   border-left: 2px solid var(--accent-color);
   margin: 40px 0;
+  font-size: 20px;
 }
 
 .hero .btn-get-started {
@@ -871,6 +872,10 @@ section,
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
+  }
+
+  .hero blockquote {
+    font-size: 18px;
   }
 }
 
@@ -1222,7 +1227,8 @@ section,
 
 .features .details p {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 18px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .features .details .btn-get-started {
@@ -1240,6 +1246,17 @@ section,
 
 .features .details .btn-get-started:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+@media (max-width: 768px) {
+  .features .details p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .features .sobre-div {
+    margin: 15px;
+    max-width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
