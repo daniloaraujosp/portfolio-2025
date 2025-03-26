@@ -1793,11 +1793,13 @@ section,
 }
 
 .portfolio-details .portfolio-info {
-  background-color: var(--surface-color);
+  background-color: #ffff;
   padding: 30px;
   margin-left:30px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px; 
+  border: 1px solid;
+  border-color: #56b8e6;
 }
 
 .portfolio-details .portfolio-info h3 {
