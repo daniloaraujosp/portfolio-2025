@@ -747,6 +747,7 @@ section,
 .btn-grad {background-image: linear-gradient(to right, #56b8e6 0%, #649eea  51%, #56b8e6  100%)}
 .btn-grad {
    padding: 12px 30px;
+   margin-top: 50px;
    text-align: center;
    transition: 0.5s;
    background-size: 200% auto;
@@ -757,7 +758,9 @@ section,
    font-size: 14px;
    letter-spacing: 1px;
    transition: 0.5s;
+   
  }
+
 
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
@@ -1235,7 +1238,7 @@ section,
 }
 
 .features .details p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
