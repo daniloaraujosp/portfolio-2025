@@ -1243,6 +1243,12 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
+.features .details ul {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
 .features .details .btn-get-started {
   color: var(--contrast-color);
   background-color: var(--accent-color);
@@ -1265,6 +1271,10 @@ section,
     font-size: 16px;
     text-align: left;
   }
+  .features .details ul {
+    font-size: 16px;
+    text-align: left;
+  }
   .features .sobre-div {
     margin: 12px;
     max-width: 100%;
@@ -1273,6 +1283,10 @@ section,
 
 @media (min-width: 769px) and (max-width: 1200px){
   .features .details p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .features .details ul {
     font-size: 16px;
     text-align: left;
   }
