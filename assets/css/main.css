@@ -1858,7 +1858,7 @@ section,
 }
 
 .portfolio-details .portfolio-description {
-  padding: 30px;
+  padding: 20px;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1869,7 +1869,20 @@ section,
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.portfolio-details .portfolio-description ul {
+  width: 90%;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.portfolio-details .portfolio-description h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 @media (max-width: 575px) {
   .portfolio-details .portfolio-info {
