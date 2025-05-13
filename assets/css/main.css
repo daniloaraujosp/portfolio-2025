@@ -1122,7 +1122,7 @@ section,
 
 .call-to-action:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 20%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1141,6 +1141,10 @@ section,
 
 .call-to-action p {
   color: var(--default-color);
+  font-weight: 300;
+  font-size: 17px;
+  text-align:left;
+  margin: 40px;
 }
 
 .call-to-action .cta-btn {
