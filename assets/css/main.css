@@ -1023,12 +1023,24 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services {
+  background-image: linear-gradient(180deg, color-mix(in srgb, #17283b, transparent 15%), color-mix(in srgb, #000a11, transparent 15%) 100%), linear-gradient(45deg, rgb(0, 10, 17), rgb(23, 40, 59) 100%);
+}
 
 .services .servicos-box {
   position: relative;
   height: 100%;
   margin-bottom: 30px; 
   background-color: #f6f6f6;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+.services .servicos-box-2 {
+  position: relative;
+  height: 100%;
+  margin-bottom: 30px; 
+  background: rgba(255, 255, 255, 0.179);
   padding: 35px;
   border-radius: 20px;
 }
@@ -1124,8 +1136,10 @@ section,
 
 .call-to-action:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 20%);
-  position: absolute;
+  background: color-mix(in srgb, var(--background-color), transparent 5%);
+  position: fixed;
+  display: block;
+  padding-bottom: -10px;
   inset: 0;
   z-index: 2;
 }
