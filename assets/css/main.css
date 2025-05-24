@@ -746,7 +746,7 @@ section,
 /* background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 15%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%); */
 
 
-.btn-grad {background-image: linear-gradient(to right, #56b8e6 0%, #649eea  51%, #56b8e6  100%)}
+.btn-grad {background-image: linear-gradient(to right, #0d5e84 0%, #17283b 51%, #0d5e84 100%)}
 .btn-grad {
    padding: 12px 30px;
    margin-top: 50px;
@@ -833,15 +833,38 @@ section,
 }
 
 .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  padding: 12px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
+   border: 1.5px solid;
+   border-color: #e7e7e7;
+   padding: 12px 30px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   border-radius: 50px;
+   color: #fff;
+   font-family: var(--heading-font);
+   font-weight: 600;
+   font-size: 14px;
+   letter-spacing: 1px;
+   transition: 0.5s;
+   
+   
+ }
+
+
+ .btn-get-started:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: var(--accent-color);;
+   text-decoration: none;
+   transform: translateY(-1px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   border: 2px solid;
+   border-color: #e7e7e7;
+   background-color: #ffffff;
+ }
+
+ .btn-grad:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-watch-video {
@@ -886,7 +909,8 @@ section,
 
 .marquee-container {
   width: 100%;
-  background: linear-gradient(90deg, rgba(86,184,230,1) 0%, rgba(100,158,234,1) 100%);
+  /*background: linear-gradient(90deg, rgba(86,184,230,1) 0%, rgba(100,158,234,1) 100%);*/
+  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
   padding: 15px 0;
 }
 
@@ -1243,6 +1267,7 @@ section,
   margin-top: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #fcfcfc;
 }
 
 .features .details-2 {
@@ -1725,16 +1750,17 @@ section,
   margin: 0 10px;
   line-height: 1;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   transition: all 0.3s ease-in-out;  
   background-color: #f6f6f6;
+  color:#5b5b5b;
 }
 
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: #FFFFFF;
-  background-color: #61c0ff;
-  margin: 15px 0;
+  background-image: linear-gradient(to right, #0c78ab 0%,  #1c5196  100%);
+  margin: 5px 5px;
 }
 
 .portfolio .portfolio-filters li:first-child {
