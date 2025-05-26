@@ -1281,6 +1281,14 @@ section,
   background-color: color-mix(in srgb, var(--default-color), transparent 97%);
 }
 
+
+
+@media (max-width: 768px) {
+  .features .details-3 {
+  margin: 20px;
+  }
+}
+
 .features .details h4 {
   font-size: 32px;
   font-weight: 700;
