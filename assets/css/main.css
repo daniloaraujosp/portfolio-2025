@@ -459,7 +459,7 @@ h6 {
 
 .footer .social-links a {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-image: linear-gradient(to right, #0d5e84 0%,  #17283b  100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,8 +472,9 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+  background-image: linear-gradient(to right, #0d5e84 0%,  #17283b  100%);
+  border: solid 1px;
+  border-color: #0d5e84;
 }
 
 .footer h4 {
@@ -607,13 +608,15 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: #0d5e84;
   color: var(--contrast-color);
+  
 }
 
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
+  
 }
 
 /*--------------------------------------------------------------
@@ -1760,7 +1763,7 @@ section,
   border-radius: 20px;
   font-size: 16px;
   font-weight: 600;
-  margin: 0 10px;
+  margin: 0 5px;
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -1772,8 +1775,8 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: #FFFFFF;
-  background-image: linear-gradient(to right, #0c78ab 0%,  #1c5196  100%);
-  margin: 5px 5px;
+  background-image: linear-gradient(to right, #0d5e84 0%,  #17283b  100%);
+  margin: 0px 5px;
 }
 
 .portfolio .portfolio-filters li:first-child {
