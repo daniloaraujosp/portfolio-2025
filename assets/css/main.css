@@ -963,7 +963,7 @@ section,
   }
 
   100% {
-    transform: translateX(-150%);
+    transform: translateX(-50%);
   }
 }
 
@@ -978,7 +978,7 @@ section,
     }
   
     100% {
-      transform: translateX(-550%);
+      transform: translateX(-350%);
     }
   }
 }
